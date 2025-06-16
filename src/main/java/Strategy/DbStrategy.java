@@ -1,5 +1,5 @@
 package Strategy;
 
-public interface DbContext {
+public interface DbStrategy {
     void selecionar_db(String chave);
 }

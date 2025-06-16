@@ -1,10 +1,10 @@
 package Strategy;
 
-public class SqlServerStrategy implements DbContext {
+public class SqlServerStrategy implements DbStrategy {
 
     @Override
 
-    public void conectar(String chave){
+    public void selecionar_db(String chave){
 
     }
 }
